@@ -1,1 +1,15 @@
-<?xml version="1.0"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"><url><loc>https://example.com/index.html</loc></url><url><loc>https://example.com/about.html</loc></url><url><loc>https://example.com/services.html</loc></url><url><loc>https://example.com/portfolio.html</loc></url><url><loc>https://example.com/faq.html</loc></url><url><loc>https://example.com/contact.html</loc></url><url><loc>https://example.com/project-maison-verra.html</loc></url><url><loc>https://example.com/project-halden-offices.html</loc></url><url><loc>https://example.com/project-casa-lumen.html</loc></url><url><loc>https://example.com/project-orchard-pavilion.html</loc></url><url><loc>https://example.com/project-the-ember-lounge.html</loc></url><url><loc>https://example.com/project-atelier-noor.html</loc></url></urlset>
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://sksakin031-byte.github.io/AUREVIA/</loc></url>
+  <url><loc>https://sksakin031-byte.github.io/AUREVIA/about.html</loc></url>
+  <url><loc>https://sksakin031-byte.github.io/AUREVIA/services.html</loc></url>
+  <url><loc>https://sksakin031-byte.github.io/AUREVIA/portfolio.html</loc></url>
+  <url><loc>https://sksakin031-byte.github.io/AUREVIA/contact.html</loc></url>
+  <url><loc>https://sksakin031-byte.github.io/AUREVIA/faq.html</loc></url>
+  <url><loc>https://sksakin031-byte.github.io/AUREVIA/project-maison-verra.html</loc></url>
+  <url><loc>https://sksakin031-byte.github.io/AUREVIA/project-halden-offices.html</loc></url>
+  <url><loc>https://sksakin031-byte.github.io/AUREVIA/project-casa-lumen.html</loc></url>
+  <url><loc>https://sksakin031-byte.github.io/AUREVIA/project-orchard-pavilion.html</loc></url>
+  <url><loc>https://sksakin031-byte.github.io/AUREVIA/project-the-ember-lounge.html</loc></url>
+  <url><loc>https://sksakin031-byte.github.io/AUREVIA/project-atelier-noor.html</loc></url>
+</urlset>
