@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact | AUREVIA</title>
+  <meta name="description" content="Contact Aurevia, a fictional demo studio. The form is a demonstration only.">
+  <meta property="og:title" content="Contact | AUREVIA">
+  <meta property="og:description" content="Contact Aurevia, a fictional demo studio. The form is a demonstration only.">
+  <meta property="og:type" content="website">
+  <meta name="robots" content="index,follow">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"HomeAndConstructionBusiness","name":"Aurevia (fictional demo)","address":{"@type":"PostalAddress","streetAddress":"100 Example Avenue","addressLocality":"Demo City"},"email":"hello@aurevia.example"}</script>
+  <noscript><style>#ld{display:none}.rv{opacity:1;transform:none}</style></noscript>
+</head>
+<body>
+  <div id="ld"><span class="logo">AUREVIA</span></div>
+  <a class="skip" href="#main">Skip to content</a>
+  <div class="bar">Demo studio: now booking fictional consultations for spring</div>
+  <header>
+    <div class="wrap nav">
+      <a class="logo" href="index.html" aria-label="Aurevia home">AUREVIA</a>
+      <button class="burger" type="button" aria-label="Toggle menu" aria-expanded="false">☰</button>
+      <nav aria-label="Main">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="faq.html">FAQ</a></li>
+          <li><a href="contact.html" class="on" aria-current="page">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="contact-section">
+      <div class="wrap contact-layout">
+        <aside class="contact-copy" aria-labelledby="contact-title">
+          <p class="eyebrow">A considered first step</p>
+          <h1 id="contact-title">Start a project</h1>
+          <p class="contact-lede">Tell us a little about the space you imagine. These details help shape a more thoughtful first conversation.</p>
+          <div class="contact-details" aria-label="Illustrative studio contact details">
+            <p class="detail-label">Studio contact</p>
+            <dl>
+              <div><dt>Email</dt><dd>hello@aurevia.example</dd></div>
+              <div><dt>Phone</dt><dd>+00 000 000 0000</dd></div>
+              <div><dt>Studio</dt><dd>100 Example Avenue<br>Demo City</dd></div>
+            </dl>
+            <p class="demo-note">Fictional contact details for this portfolio demo.</p>
+          </div>
+        </aside>
+
+        <form id="cf" class="contact-form" novalidate aria-labelledby="form-title">
+          <div class="form-heading">
+            <p class="eyebrow">Project enquiry</p>
+            <h2 id="form-title">Tell us about your space</h2>
+            <p>Fields marked <span class="required-mark" aria-hidden="true">*</span> are required.</p>
+          </div>
+
+          <div class="form-grid">
+            <div class="field">
+              <label for="name">Your name <span class="required-mark" aria-hidden="true">*</span></label>
+              <input id="name" name="name" type="text" autocomplete="name" minlength="2" maxlength="100" required aria-describedby="e-name">
+              <span class="err" id="e-name" aria-live="polite" hidden></span>
+            </div>
+            <div class="field">
+              <label for="email">Email address <span class="required-mark" aria-hidden="true">*</span></label>
+              <input id="email" name="email" type="email" autocomplete="email" maxlength="254" required aria-describedby="e-email">
+              <span class="err" id="e-email" aria-live="polite" hidden></span>
+            </div>
+            <div class="field">
+              <label for="phone">Phone number <span class="optional-label">Optional</span></label>
+              <input id="phone" name="phone" type="tel" autocomplete="tel" maxlength="32" aria-describedby="phone-hint e-phone">
+              <small class="field-hint" id="phone-hint">Include your country code if helpful.</small>
+              <span class="err" id="e-phone" aria-live="polite" hidden></span>
+            </div>
+            <div class="field">
+              <label for="service">Service of interest <span class="required-mark" aria-hidden="true">*</span></label>
+              <select id="service" name="service" required aria-describedby="e-service">
+                <option value="" selected disabled>Choose a service</option>
+                <option value="Residential Interior Design">Residential Interior Design</option>
+                <option value="Commercial Interior Design">Commercial Interior Design</option>
+                <option value="Luxury Home Design">Luxury Home Design</option>
+                <option value="Architectural Planning">Architectural Planning</option>
+                <option value="Space Planning">Space Planning</option>
+                <option value="Furniture &amp; Material Selection">Furniture &amp; Material Selection</option>
+                <option value="3D Visualization &amp; Rendering">3D Visualization &amp; Rendering</option>
+                <option value="Complete Design Consultation">Complete Design Consultation</option>
+              </select>
+              <span class="err" id="e-service" aria-live="polite" hidden></span>
+            </div>
+            <div class="field">
+              <label for="budget">Estimated project budget <span class="required-mark" aria-hidden="true">*</span></label>
+              <select id="budget" name="budget" required aria-describedby="e-budget">
+                <option value="" selected disabled>Choose a range</option>
+                <option value="Under $25k">Under $25k</option>
+                <option value="$25k to $100k">$25k to $100k</option>
+                <option value="$100k to $500k">$100k to $500k</option>
+                <option value="$500k+">$500k+</option>
+              </select>
+              <span class="err" id="e-budget" aria-live="polite" hidden></span>
+            </div>
+            <div class="field field-full">
+              <label for="message">A little about your project <span class="required-mark" aria-hidden="true">*</span></label>
+              <textarea id="message" name="message" rows="5" minlength="10" maxlength="2000" required aria-describedby="message-hint e-message"></textarea>
+              <small class="field-hint" id="message-hint">Share the space, goals, or timing—whatever feels useful.</small>
+              <span class="err" id="e-message" aria-live="polite" hidden></span>
+            </div>
+          </div>
+
+          <button class="btn contact-submit" type="submit">Review enquiry</button>
+          <p id="note" class="form-status" role="status" aria-live="polite" tabindex="-1" hidden></p>
+          <p class="form-disclaimer">Demo only: this form checks your entries in this browser. Nothing is sent or stored.</p>
+        </form>
+      </div>
+    </section>
+
+    <section class="alt">
+      <div class="wrap">
+        <h2>Quick answers</h2>
+        <div class="acc">
+          <div>
+            <button type="button" aria-expanded="false"><span>What services do you offer?</span><span>+</span></button>
+            <div class="a"><p>Residential and commercial interiors, luxury homes, architectural and space planning, material selection and 3D visualization.</p></div>
+          </div>
+          <div>
+            <button type="button" aria-expanded="false"><span>How long does a project take?</span><span>+</span></button>
+            <div class="a"><p>A single room usually takes 8 to 12 weeks. A full home or commercial space takes 6 to 12 months.</p></div>
+          </div>
+          <div>
+            <button type="button" aria-expanded="false"><span>How does the consultation work?</span><span>+</span></button>
+            <div class="a"><p>A free 45 minute call where we discuss your goals, space and budget, followed by a written proposal.</p></div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap grid g3">
+      <div><span class="logo">AUREVIA</span><p>A fictional luxury interior design and architecture studio. This website is a demo portfolio project.</p></div>
+      <div>
+        <h3>Explore</h3>
+        <p><a href="index.html">Home</a></p><p><a href="about.html">About</a></p><p><a href="services.html">Services</a></p>
+        <p><a href="portfolio.html">Portfolio</a></p><p><a href="faq.html">FAQ</a></p><p><a href="contact.html">Contact</a></p>
+      </div>
+      <div><h3>Demo contact</h3><p>hello@aurevia.example<br>+00 000 000 0000<br>100 Example Avenue, Demo City</p></div>
+    </div>
+    <div class="wrap"><p class="small">© 2026 Aurevia. Fictional brand for demonstration only. All figures and reviews are illustrative.</p></div>
+  </footer>
+  <button id="top" aria-label="Back to top">↑</button>
+  <script src="js/main.js"></script>
+</body>
+</html>

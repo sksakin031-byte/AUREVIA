@@ -1,0 +1,56 @@
+{
+  "routes": [
+    {
+      "path": "/about.html",
+      "title": "About the Studio | AUREVIA"
+    },
+    {
+      "path": "/contact.html",
+      "title": "Contact | AUREVIA"
+    },
+    {
+      "path": "/faq.html",
+      "title": "FAQ | AUREVIA"
+    },
+    {
+      "path": "/",
+      "title": "Luxury Interior Design & Architecture | AUREVIA"
+    },
+    {
+      "path": "/index.html",
+      "title": "Luxury Interior Design & Architecture | AUREVIA"
+    },
+    {
+      "path": "/portfolio.html",
+      "title": "Portfolio | AUREVIA"
+    },
+    {
+      "path": "/project-atelier-noor.html",
+      "title": "Atelier Noor | AUREVIA"
+    },
+    {
+      "path": "/project-casa-lumen.html",
+      "title": "Casa Lumen | AUREVIA"
+    },
+    {
+      "path": "/project-halden-offices.html",
+      "title": "Halden Offices | AUREVIA"
+    },
+    {
+      "path": "/project-maison-verra.html",
+      "title": "Maison Verra | AUREVIA"
+    },
+    {
+      "path": "/project-orchard-pavilion.html",
+      "title": "Orchard Pavilion | AUREVIA"
+    },
+    {
+      "path": "/project-the-ember-lounge.html",
+      "title": "The Ember Lounge | AUREVIA"
+    },
+    {
+      "path": "/services.html",
+      "title": "Interior Design & Architecture Services | AUREVIA"
+    }
+  ]
+}
